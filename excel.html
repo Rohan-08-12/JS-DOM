@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel - JavaScript Functions</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Excel Functions</h2>
+        <form id="excelForm">
+            <label for="numbers">Enter numbers (space-separated):</label>
+            <input type="text" id="numbers" required>
+
+            <p>Select an operation:</p>
+            <label><input type="radio" name="operation" value="sum" checked> AutoSum</label>
+            <label><input type="radio" name="operation" value="average"> Average</label>
+            <label><input type="radio" name="operation" value="max"> Max</label>
+            <label><input type="radio" name="operation" value="min"> Min</label>
+
+            <button type="button" id="calculateBtn">Calculate</button>
+        </form>
+
+        <div id="result">Result will be printed here</div>
+    </main>
+
+    <footer>
+        <p>Georgian @ ILAC - #JavaScript Assignment3 - Tanvi & Rohan</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
